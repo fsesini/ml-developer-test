@@ -1,5 +1,5 @@
 {
-    "name": "ml/developer-test",
+    "name": "fsesini/ml-developer-test",
     "description": "Block product from being added to the cart based on user's location.",
     "type": "magento2-module",
     "version": "1.0.0",
