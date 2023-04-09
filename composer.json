@@ -1,0 +1,24 @@
+{
+    "name": "ml/developer-test",
+    "description": "Block product from being added to the cart based on user's location.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Florencia Sesini",
+            "email": "flsesini@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "ML\\DeveloperTest\\": ""
+        }
+    },
+    "require": {
+        "composer/installers": "~1.0",
+        "php": "~8.0.0||~8.1.0",
+        "magento/module-quote": "~101.2.6"
+    }
+}
